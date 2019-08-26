@@ -8,9 +8,11 @@ export default class App extends Component{
     
     return(    
       <View style={styles.main}>
-      <Dica locations = {
-        [{id:'1', image: require('./src/assets/Login/logotipo.png')},
-        {id:'2', image: require('./src/assets/Tutorial/createPost.png')}]
+      <Dica locations = {[
+        {image: require('./src/assets/Login/logotipo.png')},
+        {image: require('./src/assets/Tutorial/createPost.png')},
+        {image: require('./src/assets/Tutorial/createPost.png')}
+      ]
       }/>
       </View>
     );
